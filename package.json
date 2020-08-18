@@ -20,6 +20,7 @@
     "dotenv": "^8.2.0",
     "ffmpeg-static": "^4.2.7",
     "keyv": "^4.0.1",
+    "node-pre-gyp": "^0.15.0",
     "opusscript": "0.0.7",
     "winston": "^3.3.3",
     "ytdl-core": "^3.2.1"
