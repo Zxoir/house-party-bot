@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const client = new Discord.Client();
 const winston = require("winston");
-const { token } = require('./config.json');
 const Keyv = require('keyv');
 const keyv = new Keyv('mysql://root:@localhost:3306/test');
 const autorole = require('./events/autorole');
@@ -78,4 +77,4 @@ client.on("guildMemberAdd", async member => {
     autowelcome.execute(member, keyv);
 });
 
-client.login(token);
+client.login(process.env.token);
