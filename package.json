@@ -1,0 +1,27 @@
+{
+  "name": "housepartybot",
+  "version": "1.0.0",
+  "description": "A Discord.JS bot for the Houseparty Discord server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Discord.JS",
+    "Bot"
+  ],
+  "author": "Zxoir",
+  "license": "MIT",
+  "dependencies": {
+    "@keyv/mysql": "^1.1.4",
+    "canvas": "^2.6.1",
+    "discord.js": "^12.3.1",
+    "distube": "^2.4.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.7",
+    "keyv": "^4.0.1",
+    "opusscript": "0.0.7",
+    "winston": "^3.3.3",
+    "ytdl-core": "^3.2.1"
+  }
+}
